@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&family=Pacifico&display=swap");
+.wrapper {
+  height: 600px;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  color: white;
+  box-shadow: rgba(133, 132, 132, 0.24) 0px 3px 8px;
+  background: linear-gradient(45deg, #4f5152, #313535);
+}
+
+.container {
+  min-height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.container__title {
+  font-size: 4rem;
+  font-family: "Amatic SC";
+  font-weight: 700;
+}
+.container__subtitle {
+  font-size: 2.5rem;
+  font-family: "Amatic SC";
+  font-weight: 700;
+}
+.container__input {
+  width: 700px;
+  height: 50px;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  font-family: "Amatic SC";
+  font-weight: 700;
+  padding-left: 10px;
+}
+.container__input::placeholder {
+  padding-left: 4px;
+}
+.container__warning {
+  font-size: 1.5rem;
+  font-family: "Amatic SC";
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+footer {
+  position: fixed;
+  bottom: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.877);
+  font-family: "Indie Flower", cursive;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #326b6e, #13aeb6);
+}

@@ -1,0 +1,30 @@
+@use "./modules/wrapper.scss";
+@use "./modules/container.scss";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&family=Pacifico&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.877);
+    font-family: 'Indie Flower', cursive;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #326b6e, #13aeb6);
+}
+
+
+
